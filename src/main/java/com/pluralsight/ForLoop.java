@@ -1,0 +1,15 @@
+package com.pluralsight;
+
+public class ForLoop {
+    public static void main(String[] args) {
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+        System.out.println("launch");
+
+        for (int i = 20; i >= 8; i--) {
+            System.out.println(i);
+        }
+        System.out.println("launch");
+    }
+}
